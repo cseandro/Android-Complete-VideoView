@@ -109,19 +109,18 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
 ```
 <!---MK video player--->
 
-### step 4: How to Add Internet Permission and Config Screen Rotation
+### step 5: How to Add Internet Permission and Config Screen Rotation
 <!---MK video player--->
 ``` java
-
  <activity
         android:name=".Your_Activity_Name"
         android:configChanges="keyboardHidden|orientation|screenSize"
         android:screenOrientation="sensor" >
 	</activity>
-	
-	
-	```
+```
 <!---MK video player--->
+
+---------
 
 
 # API:
