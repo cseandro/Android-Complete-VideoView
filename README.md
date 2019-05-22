@@ -56,8 +56,9 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
 ### step 2: How to play a Video using MKPlayer
 ``` java
 
- MKPlayer mkplayer = new  MKPlayer(Activity);
-mkplayer.play(url);
+  MKPlayer mkplayer = new MKPlayer(this);
+        String url =  "Your_Video_Url";
+        mkplayer.play(url);
 ```
 ### step 3: How to handle setPlayerCallBacks
 <!---MK video player--->
