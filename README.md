@@ -7,13 +7,12 @@ Android Adavanced Complete VideoView - library is a VideoView have Advanced  fea
 <!---MK video player--->
 <!---MK video player--->
 # features
-1. base on [ijkplayer](https://github.com/Bilibili/ijkplayer).
-2. gestures for volume control
-3. gestures for brightness control
-4. gestures for forward or backward
-5. fullscreen by manual or sensor
-6. lock screen feature
-7. AspectRatio feature.
+1. gestures for volume control
+2. gestures for brightness control
+3. gestures for forward or backward
+4. fullscreen by manual or sensor
+5. lock screen feature
+6. AspectRatio feature.
 <!---MK video player--->
 # How to add Library into Your project
 <!---MK video player--->
