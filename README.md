@@ -1,7 +1,7 @@
 
 
 # Android-Complete-VideoView Based On [MKVideoPlayer](https://github.com/khizar1556/MKVideoPlayer).
-MKVideoPlayer library is a video player have some basic features that need to develop an video player application in android studio
+Android Adavanced Complete VideoView - library is a VideoView have Advanced  features that need to develop an video Streaming application in android studio..(Java)
 <!---MK video player--->
 <!---MK video player--->
 <!---MK video player--->
