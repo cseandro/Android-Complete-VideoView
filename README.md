@@ -134,11 +134,6 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
 ``` java
 
     public  MKPlayer mkplayer;
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -146,7 +141,7 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
 
 
         mkplayer = new MKPlayer(this);
-        Uri url =  Uri.parse("https://bloomerzztamil.gq/softwares/movies/www.bloomerzztamil.gq__Agni_Devi.mkv");
+        Uri url =  Uri.parse("Your_http/https_Video_Url");
         mkplayer.play(String.valueOf(url));
 
         // MKPlayerActivity.configPlayer(this).play(url);\
