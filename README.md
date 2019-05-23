@@ -129,7 +129,65 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
 <!---MK video player--->
 
 ---------
+### Override Methods and on backpressed and keydown:
+<!---MK video player--->
+``` java
 
+    public  MKPlayer mkplayer;
+
+
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_video);
+
+
+        mkplayer = new MKPlayer(this);
+        Uri url =  Uri.parse("https://bloomerzztamil.gq/softwares/movies/www.bloomerzztamil.gq__Agni_Devi.mkv");
+        mkplayer.play(String.valueOf(url));
+
+        // MKPlayerActivity.configPlayer(this).play(url);\
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (mkplayer != null) {
+            mkplayer.onPause();
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (mkplayer != null) {
+            mkplayer.onResume();
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mkplayer != null) {
+            mkplayer.onDestroy();
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if ( mkplayer.onBackPressed()) {
+            mkplayer.stop();
+            super.onBackPressed();
+        }
+    }
+```
+<!---MK video player--->
+
+---------
 
 # API:
 * `play(url)` //play video
