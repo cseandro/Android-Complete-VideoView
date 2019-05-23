@@ -59,6 +59,14 @@ just call`MKPlayerActivity.configPlayer(activity).play(url)`.
         String url =  "Your_Video_Url";
         mkplayer.play(url);
 ```
+# For https links Use(only MP4 support)
+``` java
+ 
+ MKPlayer mkplayer = new MKPlayer(this);
+        Uri url =  Uri.parse("Your_Video_Url");
+        mkplayer.play(String.valueOf(url));
+```
+
 ### step 3: How to handle setPlayerCallBacks
 <!---MK video player--->
 ``` java
